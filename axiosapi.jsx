@@ -14,12 +14,12 @@ export function AxiosApi() {
   return (
     <div className="App">
       <div>
-        {posts.map((post) => (
-          <div key={post.id}>
-            userid={post.userId}
-            id={post.id}
-            title={post.title}
-            body={post.body}
+        {posts.map((posts) => (
+          <div key={posts.id}>
+            userid={posts.userId}
+            id={posts.id}
+            title={posts.title}
+            body={posts.body}
           </div>
         ))}
       </div>
